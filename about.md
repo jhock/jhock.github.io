@@ -8,4 +8,4 @@ author: null
 nav-menu: true
 ---
 
-Hello, I am Joshua. I enjoy biking, running, welding, gardening, astronomy, and design.
+Hello, I am Joshua. I enjoy biking, running, welding, gardening, astronomy, learning about new framworks and technologies, working on cars, and reading.
