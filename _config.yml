@@ -3,7 +3,7 @@ title: Joshua Hock
 subtitle: On the Computer
 email: joshua.a.hock@gmail.com
 description: Website of Joshua Hock<br />
-baseurl: "." # the subpath of your site, e.g. /blog
+baseurl: "/jhock.github.io" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author:
 street_address: 
