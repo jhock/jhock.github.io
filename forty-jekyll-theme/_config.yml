@@ -6,11 +6,11 @@ description: Website of Joshua Hock<br />
 baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author:
-street_address: 1234 Somewhere Road
+street_address: 
 city: St. Louis
 state: MO
 country: United States of America
-phone: (716) 555-5555
+phone: 
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
@@ -21,7 +21,7 @@ tiles-count: 6
 facebook_url:
 gitlab_url: https://gitlab.com/jhock
 instagram_url: 
-linkedin_url: https://www.linkedin.com/in/
+linkedin_url: 
 github_url: https://github.com/jhock
 dev_url: https://dev.to/jhock
 pinterest_url:
