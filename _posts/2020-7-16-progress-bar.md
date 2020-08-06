@@ -20,7 +20,17 @@ First, we create a header with two div elements, one name "progress-container" t
 
 Next, we will add the styling. You can set the width to whatever you like, in my case I used 1vh, although you may use whatever unit value you like and make it larger or smaller.
 
-<pre><code class="language-css">p { color: red }</code></pre>
+<pre><code class="language-css">.progress-container {
+    width: 100%;
+    height: 6px;
+    background: #ccc;
+  }
+  .progress-bar {
+    height: 6px;
+    background-image: #4caf50;
+    width: 0%;
+  }
+</code></pre>
 
 Finally, we will add the Javascript code which will update every time the user scrolls. First we get the height of the document, then caluclate the current position on the screen, then convert to a percent to fit the width of the scroll bar. Finally, we change the width of the "myBar" id element and set the background to a <code>linear-gradient</code> using <code>hsl</code>. We chose to use <code>hsl</code> because the hue value fits our height position data well; each position percent value is tied to a hue value. Because hue in <code>hsl</code> is based on 360 degrees of the color wheel, we multiply the percent value by 3.6 to get hue values from 0 (the beginning of the page) all the way to 360 (the end of the page). The second <code>linear-gradient</code> value is the same as the first, with the hue offset by 100. You can choose to offest by any value you like to give a larger or smaller color change.
 
