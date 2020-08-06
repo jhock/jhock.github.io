@@ -1,0 +1,83 @@
+.grid-container-book {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.grid-container-software {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px,1fr));
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.grid-item {
+  text-align: center;
+}
+
+.grid-item a{
+  color: transparent;
+}
+
+.grow img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  outline:none;
+  border-radius: 7px;
+  text-decoration:none;
+  transition: 1s ease;
+  object-fit: cover;
+  height: 40vh;
+}
+ 
+.grow-software img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  outline:none;
+  border-radius: 7px;
+  text-decoration:none;
+  transition: 1s ease;
+  object-fit: cover;
+  height: 10vh;
+}
+
+.grow img:hover {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  transition: 1s ease;
+}
+
+.grow-software img:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 1s ease;
+}
+
+.head-image {
+  opacity: 0.75;
+}
+
+#image-desc {
+  font-size: 16px;
+}
+
+
+/* for progress bar */
+.progress-container {
+  width: 100%;
+  height: 5px;
+  background: #ccc;
+  position: fixed;
+  z-index: 1;
+}
+
+.progress-bar {
+  height: 5px;
+  background-image: #4caf50;
+  width: 0%;
+}
